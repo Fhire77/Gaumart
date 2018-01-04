@@ -1,0 +1,14 @@
+#div_logo img{
+    width:100px;
+    margin-left:8%;
+    margin-top:5%;
+}
+
+
+@media screen and (min-width:979px) {
+    #div_logo img {
+        width: 150px;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+}
