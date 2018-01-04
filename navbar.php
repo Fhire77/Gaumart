@@ -4,20 +4,20 @@
     <title>navbar</title>
     <meta charset="utf-8">
      <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-     
-    
+
+
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style_navbar.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" id="pagesheet" />
-    <link rel="stylesheet" type="text/css" href="css/demo.css" /> <!-- CSS pour logo qui descend en mode hamburger -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style_navbar.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" id="pagesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" /> <!-- CSS pour logo qui descend en mode hamburger -->
 </head>
-    
+
     <body>
-   
-   
+
+
     <!--===========================Header=============================-->
-    
-        <div class="container-fluid" style="background-color:white;">  
+
+        <div class="container-fluid" style="background-color:white;">
             <nav class="navbar navbar-default" role="navigation">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,8 +28,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <div class="navbar-brand navbar-brand-centered"><a href="index.php"><img id="logo" style="width:3em; 
-                      " src="img/logo_gaumartblanc.jpg"/></a>
+                  <div class="navbar-brand navbar-brand-centered"><a href="index.php"><img id="logo" style="width:3em;
+                      " src="assets/img/logo_gaumartblanc.jpg"/></a>
                   </div>
                 </div>
 
@@ -42,23 +42,21 @@
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="traiteur.php" id="traiteur">Traiteur</a></li>
                     <li><a href="reference.php">Nos références</a></li>
-                    <li><a href="contact.php">Nous contacter</a></li>		      
+                    <li><a href="contact.php">Nous contacter</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
             </nav>
-        </div> 
-        
-        <div id="blank"></div> 
+        </div>
+
+        <div id="blank"></div>
 
 
 
 
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!-- Javascript de Bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 
 
 
