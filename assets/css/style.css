@@ -3,6 +3,7 @@ html body{
   width: 100%;
 
 }
+
 .ref{
   float: left;
   width: 20%;
@@ -13,17 +14,19 @@ html body{
   margin-left: 0;
 }
 
-
 .img-responsive .centree {
   margin: 0 auto;
 }
+
 #orange{
   color: orangered;
 }
+
 footer{
   margin-left: 34%;
 
 }
+
 #img1{
   margin-right: 3%;
   margin-top: -43%;
@@ -31,6 +34,7 @@ footer{
   width: 30%;
   height: auto;
 }
+
 #img2{
   margin-right: 3%;
   margin-top: 4%;
@@ -38,6 +42,7 @@ footer{
   width: 30%;
   height: auto;
 }
+
 #img3{
   margin-right: 3%;
   margin-top: -35%;
@@ -50,9 +55,6 @@ footer{
   html body{
     text-align: center;
   }
-
-
-
 
   .ref{
     float: left;
@@ -141,6 +143,7 @@ footer{
 .contact-section{
   padding-top: 40px;
 }
+
 .contact-section .col-md-6{
   width: 50%;
 }
@@ -152,19 +155,21 @@ footer{
 .form-group{
   margin-top: 10px;
 }
+
 label{
   font-size: 1.3em;
   line-height: 1em;
   font-weight: normal;
 }
+
 .form-control{
   font-size: 1.3em;
   color: #080808;
 }
+
 textarea.form-control {
   height: 80px;
   width: 300px;
-  /* margin-top: px;*/
 }
 
 .submit{
