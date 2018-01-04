@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+
+.flex1 {
+    order: 1;
+    flex: 0 1;
+}
+
+.flex1 .text_left {
+    height: 46.5%;
+}
+
+.flex1 h1 {
+    text-align: center;
+}
+
+.flex1 p {
+    text-align: center;
+    line-height: 40px;
+}
+
+.flex2 {
+    order: 2;
+    min-height: ;
+    flex: 0 1;
+}
+
+.flex3 {
+    order: 3;
+    flex: 0 1;
+}
