@@ -36,8 +36,8 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-brand-centered">
                   <ul class="nav navbar-nav">
-                    <li><a href="Reception.php" id="reception">Reception d'entreprise</a></li>
-                    <li><a href="evenement_prives.php">Evenements privés</a></li>
+                    <li><a href="reception.php" id="reception">Reception d'entreprise</a></li>
+                    <li><a href="prive.php">Evenements privés</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="traiteur.php" id="traiteur">Traiteur</a></li>

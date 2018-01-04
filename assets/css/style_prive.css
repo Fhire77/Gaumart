@@ -1,8 +1,7 @@
 html body{
-    padding: 2%;
     width: 100%;
-    
-} 
+
+}
 .ref{
         float: left;
         width: 20%;
@@ -12,48 +11,52 @@ html body{
         padding-right: 0;
         margin-left: 0;
     }
-.container{
-    //margin-left: 20%;
-}
-    
+
 .img-responsive .centree {
  margin: 0 auto;
 }
 #orange{
 	color: orangered;
 }
-footer{
-    margin-left: 34%;
-    
+
+.contenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
-#img1{
-    margin-right: 6%;
-    margin-top: -43%;
-    margin-left: 70%;
-    width: 30%;
-    height: auto;
+
+
+.flex1 {
+    order: 1;
+    flex: 0 1;
 }
-#img2{
-    margin-right: 3%;
-    margin-top: 4%;
-    margin-left: 70%;
-    width: 30%;
-    height: auto;
+
+.flex1 .text_left {
+    height: 46.5%;
 }
-#img3{
-    margin-right: 3%;
-    margin-top: -35%;
-    margin-left: 40%;
-    width: 30%;
-    height: auto;
+
+.flex1 h1 {
+    font-size: 1.4em;
+    text-align: center;
+
 }
-#img4 img{
-    margin-right: 3%;
-    margin-top: 3%;
-    margin-left: 0%;
-    width:30%;
-    height: auto;
+
+.flex1 p {
+    text-align: center;
+    line-height: 40px;
 }
+
+.flex2 {
+    order: 2;
+    min-height: ;
+    flex: 0 1;
+}
+
+.flex3 {
+    order: 3;
+    flex: 0 1;
+}
+
 @media screen and (max-width:680px){
     html body{
         text-align: center;
@@ -76,8 +79,8 @@ footer{
     footer{
     text-align: center;
     margin-left: 0%
-    
-} 
+
+}
     #img4 img{
     margin-right: 2%;
     margin-top: 3%;
@@ -104,14 +107,14 @@ footer{
     height: auto;
 }
     */
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 html body{
@@ -135,8 +138,8 @@ html body{
     footer{
     text-align: center;
     margin-left: 0%
-    
-} 
+
+}
     #img4 img{
     margin-right: 2%;
     margin-top: 3%;
@@ -175,7 +178,7 @@ html body{
 }
 
 .section-content{
-  text-align: center; 
+  text-align: center;
 
 }
 
@@ -186,22 +189,22 @@ html body{
 }
 
 .section-content{
-  text-align: center; 
+  text-align: center;
 
 }
 
 #contact{
-    
+
   font-family: 'Teko', sans-serif;
   margin-top:0px;
   padding-top: 60px;
   width: 100%;
-  
+
   height: 550px;
   background: #3a6186; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;    
+    color : #fff;
 }
 .contact-section{
   padding-top: 40px;
@@ -242,4 +245,3 @@ textarea.form-control {
 }
 
 }
- 

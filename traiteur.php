@@ -21,8 +21,8 @@
 	<div class="contenu">
 			<div class="flex1">
 					<div class="text_left">
-							<h1><b>Evènements privés</b></h1>
-							<br/>	
+							<h1><b>Traiteur</b></h1>
+							<br/>
 							<p>
 									Organisation de votre diner<br/>
 									Inquietari tractus erat itinere servabantur<br/>
