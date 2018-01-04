@@ -77,7 +77,7 @@ $db = new PDO('mysql:host=localhost;dbname=gaumart', 'root','');
 			  			</div>
 			  			<div>
 
-			  				<button type="submit" class="btn btn-default submit" name="valider"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Envoyer votre Message</button>
+			  				<button type="submit" class="btn btn-default submit" name="valider"><i class="fa fa-paper-plane" aria-hidden="true"></i> Envoyer</button>
 			  			</div>
 			  			<div id="contact_gaumart">
                           <h4>Contactez moi</h4>
