@@ -1,3 +1,5 @@
+
+
 #div_logo img{
     width:100px;
     margin-left:8%;
@@ -11,4 +13,9 @@
         margin-left: 8%;
         margin-top: 5%;
     }
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

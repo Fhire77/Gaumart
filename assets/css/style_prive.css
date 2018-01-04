@@ -1,173 +1,169 @@
 html body{
-    width: 100%;
+  width: 100%;
 
 }
 .ref{
-        float: left;
-        width: 20%;
-        height: auto;
-        padding: 2%;
-        margin-left: 10%;
-        padding-right: 0;
-        margin-left: 0;
-    }
+  float: left;
+  width: 20%;
+  height: auto;
+  padding: 2%;
+  margin-left: 10%;
+  padding-right: 0;
+  margin-left: 0;
+}
 
 .img-responsive .centree {
- margin: 0 auto;
+  margin: 0 auto;
 }
 #orange{
-	color: orangered;
+  color: orangered;
 }
 
 .contenu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 
 .flex1 {
-    order: 1;
-    flex: 0 1;
+  order: 1;
+  flex: 0 1;
 }
 
 .flex1 .text_left {
-    height: 46.5%;
+  height: 46.5%;
 }
 
 .flex1 h1 {
-    font-size: 1.4em;
-    text-align: center;
+  font-size: 1.4em;
+  text-align: center;
 
 }
 
 .flex1 p {
-    text-align: center;
-    line-height: 40px;
+  text-align: center;
+  line-height: 40px;
 }
 
 .flex2 {
-    order: 2;
-    min-height: ;
-    flex: 0 1;
+  order: 2;
+  min-height: ;
+  flex: 0 1;
 }
 
 .flex3 {
-    order: 3;
-    flex: 0 1;
+  order: 3;
+  flex: 0 1;
 }
 
 @media screen and (max-width:680px){
-    html body{
-        text-align: center;
-        overflow: hidden;
-    }
-.ref{
-        float: left;
-        width: 20%;
-        height: auto;
-        padding: 2%;
-        margin-left: 10%;
-        padding-right: 0;
-        margin-left: 0;
-        margin-top: 30%;
-    }
-.container{
+  html body{
+    text-align: center;
+    overflow: hidden;
+  }
+  .ref{
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 2%;
+    margin-left: 10%;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 30%;
+  }
+  .container{
     margin-left: 20%;
     overflow: hidden;
-}
-    footer{
+  }
+  footer{
     text-align: center;
     margin-left: 0%
 
-}
-    #img4 img{
+  }
+  #img4 img{
     margin-right: 2%;
     margin-top: 3%;
     margin-left: 2%;
     width:89.9%;
     height: auto;
-}
-    #img3 img{
+  }
+  #img3 img{
     display: none;
 
-}
-    #img2{
+  }
+  #img2{
     margin-right: 3%;
     margin-top: -30%;
     margin-left: 5%;
     width:45%;
     height: auto;
-}
-    #img1{
+  }
+  #img1{
     margin-right: 5%;
     margin-top: 36%;
     margin-left: 50%;
     width:45%;
     height: auto;
+  }
 }
-    */
 
-
-
-
-
-
-
-
-}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-html body{
-        text-align: center;
-        overflow: hidden;
-    }
-.ref{
-        float: left;
-        width: 20%;
-        height: auto;
-        padding: 2%;
-        margin-left: 10%;
-        padding-right: 0;
-        margin-left: 0;
-        margin-top: 30%;
-    }
-.container{
+  html body{
+    text-align: center;
+    overflow: hidden;
+  }
+  .ref{
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 2%;
+    margin-left: 10%;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 30%;
+  }
+  .container{
     margin-left: 20%;
     overflow: hidden;
-}
-    footer{
+  }
+  footer{
     text-align: center;
     margin-left: 0%
 
-}
-    #img4 img{
+  }
+  #img4 img{
     margin-right: 2%;
     margin-top: 3%;
     margin-left: 2%;
     width:89.9%;
     height: auto;
-}
-    #img3 img{
+  }
+  #img3 img{
     display: none;
 
-}
-    #img2{
+  }
+  #img2{
     margin-right: 3%;
     margin-top: -30%;
     margin-left: 5%;
     width:45%;
     height: auto;
-}
-    #img1{
+  }
+  #img1{
     margin-right: 5%;
     margin-top: 80%;
     margin-left: 50%;
     width:45%;
     height: auto;
-}
+  }
 }
 
-
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 /********************** FORM CONTACT ************************/
 /*Contact sectiom*/
 
@@ -204,7 +200,7 @@ html body{
   background: #3a6186; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;
+  color : #fff;
 }
 .contact-section{
   padding-top: 40px;
@@ -230,9 +226,9 @@ label{
   color: #080808;
 }
 textarea.form-control {
-    height: 80px;
-    width: 300px;
-   /* margin-top: px;*/
+  height: 80px;
+  width: 300px;
+  /* margin-top: px;*/
 }
 
 .submit{
@@ -241,7 +237,5 @@ textarea.form-control {
   width: 150px;
   background-color: transparent;
   color: #fff;
-
-}
 
 }
